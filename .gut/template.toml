@@ -9,7 +9,7 @@
 
 name = "Speech Template"
 patterns = ["__UND__", "__UNDEFINED__"]
-rev_id = 2
+rev_id = 3
 required = [".gitignore",
             ".github/workflows/docs.yml",
             "README.md",

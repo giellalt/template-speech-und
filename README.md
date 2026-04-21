@@ -1,2 +1,5 @@
-# template-speech-und
-Speech technology resources for the __UND__ language
+# speech-__UND__
+
+Speech language technology resources for the __UNDEFINED__ language.
+
+Project documentation [here](https://giellalt.github.io/speech-__UND__/).

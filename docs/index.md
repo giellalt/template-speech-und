@@ -1,9 +1,5 @@
-# Documentation for the __UNDEFINED__ keyboards
+# Speech technology resources for __UNDEFINED__
 
-## Layouts
+## Documentation
 
--   [Layout overview](layout.md)
-
-## Other information
-
-Add text and links as needed.
+TBW

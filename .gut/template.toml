@@ -1,0 +1,22 @@
+# This template merge config file lists:
+#
+# - name: name of template stuff
+# - patterns: strings to do text substitution on
+# - rev_id: a sequential revision id of the template repo (manually maintained for now)
+# - required: a full list of all files always merged
+# - optional: a full list of all files merged when the --optional flag is used with `gut template`
+# - ignored: never used in merging, only when populating new repos
+
+name = "Speech Template"
+patterns = ["__UND__", "__UNDEFINED__"]
+rev_id = 1
+required = [".gitignore",
+            ".github/workflows/docs.yml",
+            "README.md",
+            "docs/_config.yml",
+            "docs/index.md"]
+
+optional = [".gitattributes"]
+
+ignored  = ["LICENSE",
+            ".gut/delta.toml"]
